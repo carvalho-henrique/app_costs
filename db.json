@@ -1,59 +1,52 @@
 {
   "projects": [
     {
-      "name": "projeto teste",
-      "budget": "5000",
-      "category": {
-        "id": "3",
-        "name": "Design"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 1
-    },
-    {
-      "name": "Projeto 1",
-      "budget": "6000",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 2
-    },
-    {
-      "name": "Projeto 2",
-      "budget": "3000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 3
-    },
-    {
-      "name": "Projeto 3",
-      "budget": "5000",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": [],
-      "id": 4
-    },
-    {
-      "name": "Projeto 4",
-      "budget": "6500",
+      "name": "Padaria",
+      "budget": "50000",
       "category": {
         "id": "4",
         "name": "Planejamento"
       },
-      "cost": 0,
-      "services": [],
-      "id": 5
+      "cost": 3000,
+      "services": [
+        {
+          "name": "serviço",
+          "cost": "1000",
+          "description": "1231",
+          "id": "8dbd9470-241e-4224-9488-e06d93b044d5"
+        },
+        {
+          "name": "serviço",
+          "cost": "1000",
+          "description": "1231",
+          "id": "35957300-d036-4440-9be1-2864c8b1695f"
+        },
+        {
+          "name": "serviço",
+          "cost": "1000",
+          "description": "asdasd",
+          "id": "c6725759-b33a-4840-82cd-fa2f17966f31"
+        }
+      ],
+      "id": 8
+    },
+    {
+      "name": "Viagem - Chalé",
+      "budget": "2000",
+      "category": {
+        "id": "4",
+        "name": "Planejamento"
+      },
+      "cost": 1000,
+      "services": [
+        {
+          "name": "Alugar Chalé",
+          "cost": "1000",
+          "description": "Alugar chalé para 3 dias",
+          "id": "309a0939-0bae-4a34-b9e4-85dce81ecef3"
+        }
+      ],
+      "id": 9
     }
   ],
   "categories": [
